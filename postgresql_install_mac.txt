@@ -1,0 +1,28 @@
+#To make up-to-date your brew 
+brew update
+brew upgrade
+
+#Install postgresql via homebrew
+brew install postgresql
+
+#After installition, you will see the explanation of how you can start and stop postgresql.
+#However just in case you can reach the same info with,
+brew info postgresql
+
+#To start postgresql
+brew services start postgresql
+
+#To stop postgresql
+brew services stop postgresql
+
+#To when you update some changes on postgresql service
+brew services restart postgresql
+
+#To enter postgresql-terminal ui
+#First you need to create a database
+createdb test
+
+#Connect to this database
+psql test
+
+#Now you are in postgresql terminal-ui
