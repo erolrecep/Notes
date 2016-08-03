@@ -1,0 +1,29 @@
+#To install MySQL click this link : http://dev.mysql.com/downloads/mysql/ and select which is fit for you
+
+#After you install MySQL you can reach the control panel of MySQL from your "System Preferences" -> "MySQL" on the bottom of the window.
+you can start - stop the MySQL server automatically.
+
+When you install MySQL, randomly generated password will pop-up on a small window. 
+Copy this password and keep it until you change.
+
+To connect MySQL shell; 
+open your terminal and type below line,
+/usr/local/mysql/bin/mysql -u root -p and paste the randomly generated password by MySQL installation panel.
+
+Now you are in!
+
+The shell will ask you to change your password. Write below link to your mysql> shell;
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'YourNewPassword' -> hit enter.
+You password is changed!
+
+Now, time to change the command line shortcut while you connect to MySQL shell.
+
+Paste the below line to your terminal;
+export PATH=$PATH:/usr/local/mysql/bin -> hit enter. 
+Congratulations! 
+
+You can enter "mysql -u root -p" to your terminal and connect to mysql> shell after you enter your password.
+
+Finally, you can free to play with your MySQL server and your databases.
+
+
