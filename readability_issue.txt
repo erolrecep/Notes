@@ -1,0 +1,8 @@
+I got an error while importing readbility. The issue was "No module named LANGDATA". 
+However, I couldn't find a solution. I tried something myself and the issue was solved.
+ 
+To solve this problem;
+ - I uninstalled all readability packages I have.
+ - Then installed : pip install https://github.com/andreasvc/readability/tarball/master this one.
+
+Now, when I import readability, it's importing easily.
