@@ -18,8 +18,10 @@ You password is changed!
 
 Now, time to change the command line shortcut while you connect to MySQL shell.
 
-Paste the below line to your terminal;
-export PATH=$PATH:/usr/local/mysql/bin -> hit enter. 
+Paste the below line to your .bash_profile file;
+export PATH=$PATH:/usr/local/mysql/bin -> and save.
+write to your terminal;
+source .bash_profile 
 Congratulations! 
 
 You can enter "mysql -u root -p" to your terminal and connect to mysql> shell after you enter your password.
