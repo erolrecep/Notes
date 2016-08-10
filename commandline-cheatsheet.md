@@ -33,3 +33,11 @@ cd lynx2-8-9
 sudo ./configure --with-ssl --mandir=/usr/share/man
 sudo make
 sudo make install
+
+
+## Problems&Solvings
+
+ - How to install guestadditions to Linux by manuel : http://askubuntu.com/questions/321589/unable-to-mount-the-cd-dvd-image-on-the-machine-sandbox
+ - 
+
+
